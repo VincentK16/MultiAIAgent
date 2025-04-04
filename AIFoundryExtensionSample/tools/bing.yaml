@@ -1,0 +1,6 @@
+type: bing_grounding
+name: bing_search
+options:
+  tool_connections:
+    - >-
+      Your bing_grounding tool connection string. 

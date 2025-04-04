@@ -23,3 +23,10 @@ Sample - [click](./04.AzureAIAgentWithAutoGen02.ipynb)
 
 Sample - [click](./09.AzureAIAgentWithSK02.ipynb)
 
+## **Using Azure AI Foundry Extension**
+
+
+![sk](./imgs/aifoundryext.png)
+
+Sample - [click](./AIFoundryExtensionSample/README.md)
+

@@ -1,0 +1,17 @@
+version: 1.0.0
+name: BingAgent
+description: Description of the agent
+id: asst_68I4KQNRkeDP31yZCjHbJXW8
+model:
+  id: gpt-4o
+  options:
+    temperature: 1
+    top_p: 1
+instructions: This agent answers questions using Bing to provide grounding context.
+tools:
+  - type: bing_grounding
+    name: bing_search
+    options:
+      tool_connections:
+        - >-
+          /subscriptions/4e42df61-f5e6-4a7a-ade9-714785cfef28/resourceGroups/rg-kinfey-aihub/providers/Microsoft.MachineLearningServices/workspaces/lo-aiproject-demo-nwv4/connections/kinfeybingdemo

@@ -1,0 +1,27 @@
+version: 1.0.0
+name: DevOpsGenCode
+description: Description of the agent
+id: asst_aWvMxms9NpL40Muv4pgmTQQH
+model:
+  id: gpt-4o
+  options:
+    temperature: 0.4
+    top_p: 1
+instructions: >+
+  You are a bash assistant, please create folders and files according to the
+  following project structure
+
+          Note：
+
+
+          1. All files in the folder need to be created and cannot be missing. Name them according to the provided name
+
+          2. Please add the contents of the corresponding files
+
+          3. After successful creation, please package it into a zip file and return 'saved'
+
+
+tools:
+  - type: code_interpreter
+    options:
+      file_ids: []
