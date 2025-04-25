@@ -1,6 +1,6 @@
 # **Using Azure AI Agent Service with AutoGen / Semantic Kernel to build Multi-Agents solution**
 
-We can build enterprise-oriented AI agents through Azure AI Agent Service. This example uses AutoGen or Semantic Kernel to complete the AI agent orchestration task for enterprise tasks.
+We can build enterprise-oriented AI agents through Azure AI Agent Service. This example uses AutoGen or Semantic Kernel to complete the AI agent orchestration task for enterprise tasks. This is an edit by Vincent.
 
 This example has three AI agents, including search agent, writer agent, and save agent.
 
